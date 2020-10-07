@@ -5,13 +5,12 @@
   top: 0;
   left: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #000;
 
     &__logo-box {
       height: 100%;
       width: auto;
-      margin-left: 4rem;
     }
 
     &__logo {
