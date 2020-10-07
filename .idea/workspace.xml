@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0e3a8f9-66c6-4150-afa4-057f3711e784" name="Default Changelist" comment="Initial" />
+    <list default="true" id="d0e3a8f9-66c6-4150-afa4-057f3711e784" name="Default Changelist" comment="Initial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +31,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iWOiRaIsUksAQsZpNTe2UlePQh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -44,8 +46,8 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scss/abstracts" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,6 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1602020007778</updated>
       <workItem from="1602020008810" duration="1142000" />
+      <workItem from="1602021263578" duration="271000" />
+      <workItem from="1602092109941" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1602021028941</created>
@@ -88,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
@@ -102,14 +107,18 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="509" y="213" width="665" height="658" key="EditFileWatcherDialog/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602020364471" />
+    <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1602021433086">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602021433086" />
     <state x="674" y="424" key="NewPhpFileDialog" timestamp="1602020038057">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="674" y="424" key="NewPhpFileDialog/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602020038057" />
-    <state x="361" y="176" width="998" height="708" key="SettingsEditor" timestamp="1602020852159">
+    <state x="361" y="176" width="998" height="708" key="SettingsEditor" timestamp="1602092618240">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="361" y="176" width="998" height="708" key="SettingsEditor/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602020852159" />
+    <state x="361" y="176" width="998" height="708" key="SettingsEditor/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602092618240" />
     <state x="432" y="234" key="Vcs.Push.Dialog.v2" timestamp="1602021076524">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
