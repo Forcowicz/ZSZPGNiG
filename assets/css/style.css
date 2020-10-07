@@ -107,13 +107,48 @@ body {
 }
 .nav__link:link, .nav__link:visited {
   text-decoration: none;
+  font-family: "Nunito", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   padding: 3rem 4rem;
   color: #DCDCDC;
   transition: color 0.05s;
+  font-weight: 700;
 }
 .nav__item:hover > .nav__link {
+  color: #33adff;
+}
+
+.header {
+  width: 100vw;
+  height: 90vh;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 40%, transparent 100%), url("../images/background.jpg");
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  position: relative;
+}
+.header__heading-box {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  transform: translate(-10%, -35%);
+}
+.header__heading {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
+}
+.header__heading--primary {
+  font-size: 10rem;
+}
+.header__heading--secondary {
+  font-size: 7rem;
+  transform: translate(10%, -40%);
+}
+.header__heading span {
   color: #33adff;
 }
 

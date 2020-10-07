@@ -25,6 +25,11 @@
         <li class="nav__item"><a href="#" class="nav__link">Erasmus</a></li>
     </ul>
 </nav>
-
+<header class="header">
+    <div class="header__heading-box">
+        <h1 class="header__heading header__heading--primary">ZSZ PGNIG</h1>
+        <h2 class="header__heading header__heading--secondary"><span>w</span> Krakowie</h2>
+    </div>
+</header>
 </body>
 </html>
