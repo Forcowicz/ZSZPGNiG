@@ -11,6 +11,20 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<nav class="nav">
+    <div class="nav__logo-box">
+        <img src="assets/images/logo-placeholder.png" alt="Logo" class="nav__logo">
+    </div>
+    <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link">Szkoła</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Szkolne życie</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Dla uczniów</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Rekrutacja</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Dla rodziców</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Projekty edukacyjne</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Erasmus</a></li>
+    </ul>
+</nav>
 
 </body>
 </html>
