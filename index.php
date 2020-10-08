@@ -31,5 +31,37 @@
         <h2 class="header__heading header__heading--secondary"><span>w</span> Krakowie</h2>
     </div>
 </header>
+<section class="section-description">
+    <div class="description">
+        <div class="description__left">
+            <img src="assets/images/students.jpg" alt="Students Photo" class="description__image">
+        </div>
+        <div class="description__right">
+            <div class="u-margin-bottom-sm u-margin-top-md u-center-text">
+                <h2 class="heading-secondary">&mdash; Nasza szkoła?</h2>
+                <div class="u-margin-bottom-xs u-margin-top-sm">
+                    <h4 class="heading-quaternary">To przede wszystkim:</h4>
+                </div>
+                <div class="description__text">
+                    <p class="paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate delectus distinctio eligendi facilis impedit necessitatibus numquam odio officia possimus quas quis quo, sequi voluptatem voluptatibus.
+                        Aut excepturi mollitia voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eaque enim, excepturi ipsa odit porro quaerat, quis, quos repellat tempora tenetur voluptate voluptatem! Alias animi cupiditate impedit ipsam nisi! Delectus.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt earum fugit labore neque repellendus tempore unde vero voluptatem? Accusamus ad aperiam cumque dolores ex maiores quo suscipit tenetur ullam vel?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    <div class="row">-->
+<!--        <div class="col-1-of-2" style="background-color: #33adff;">-->
+<!--            dasda-->
+<!--        </div>-->
+<!--        <div class="col-1-of-2" style="background-color: #004d80;">-->
+<!--            <div class="u-margin-bottom-sm u-center-text">-->
+<!--                <h1 class="heading-primary">- Nasza szkoła?</h1>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+</section>
 </body>
 </html>

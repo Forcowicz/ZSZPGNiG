@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-evenly;
   background-color: #000;
+  z-index: 100;
 
     &__logo-box {
       height: 100%;

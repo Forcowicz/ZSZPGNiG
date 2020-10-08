@@ -1,40 +1,38 @@
-.paragraph {
-  font-size: 1.5rem;
+.heading-primary {
+  font-size: 4.2rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  display: inline-block;
+}
 
-    &:not(:last-of-type) {
-      margin-bottom: 2rem;
+.heading-secondary {
+  font-size: 4rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+  color: transparent;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  display: inline-block;
+  text-shadow: 0 .5rem 1rem rgba(black, .15);
+  transition: all .25s;
+
+    &:hover {
+      letter-spacing: 3px;
     }
 }
 
-.list {
-  list-style: none;
-  margin: 3rem 0;
-  padding: 3rem 0;
-  border-top: 1px solid var(--color-grey-light-1);
-  border-bottom: 1px solid var(--color-grey-light-1);
+.heading-quaternary {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: $color-grey-dark-2;
+  display: inline-block;
+}
 
-  display: flex;
-  flex-wrap: wrap;
-
-    &__item {
-      flex: 0 0 50%; // Dwie kolumny, ponieważ szerokość całego bloku jest podzielona przez 2
-      margin-bottom: .7rem;
-    }
-
-    &__item::before {
-      content: "";
-      display: inline-block;
-      height: 1.1rem;
-      width: 1.1rem;
-      margin-right: 1rem;
-
-      //background-image: url("../assets/SVG/plus.svg");
-      //background-size: cover;
-
-      background-color: var(--color-primary);
-      -webkit-mask-image: url("../assets/SVG/plus.svg");
-      -webkit-mask-size: cover;
-      mask-image: url("../assets/SVG/plus.svg");
-      mask-size: cover;
-    }
+.paragraph {
+  font-size: 1.6rem;
+  color: $color-grey-dark-2;
 }
