@@ -29,15 +29,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0e3a8f9-66c6-4150-afa4-057f3711e784" name="Default Changelist" comment="Improving navbar">
-      <change afterPath="$PROJECT_DIR$/scss/abstracts/_utilities.scss" afterDir="false" />
+    <list default="true" id="d0e3a8f9-66c6-4150-afa4-057f3711e784" name="Default Changelist" comment="Description section &amp; small colors changes">
+      <change afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
     </list>
@@ -100,7 +97,7 @@
       <workItem from="1602021263578" duration="271000" />
       <workItem from="1602092109941" duration="4157000" />
       <workItem from="1602105037645" duration="4926000" />
-      <workItem from="1602181565543" duration="4921000" />
+      <workItem from="1602181565543" duration="5958000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1602021028941</created>
@@ -137,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602109350926</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Description section &amp; small colors changes">
+      <created>1602187049705</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602187049705</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +177,8 @@
     <MESSAGE value="Navbar prototype" />
     <MESSAGE value="Header introduction" />
     <MESSAGE value="Improving navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improving navbar" />
+    <MESSAGE value="Description section &amp; small colors changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Description section &amp; small colors changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="432" y="163" key="#Deployment" timestamp="1602096036690">
@@ -208,17 +213,17 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="361" y="176" width="998" height="708" key="SettingsEditor/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602093257722" />
-    <state x="364" y="245" key="Vcs.Push.Dialog.v2" timestamp="1602109358104">
+    <state x="364" y="245" key="Vcs.Push.Dialog.v2" timestamp="1602187056103">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="364" y="245" key="Vcs.Push.Dialog.v2/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602109358104" />
+    <state x="364" y="245" key="Vcs.Push.Dialog.v2/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602187056103" />
     <state x="548" y="222" width="583" height="566" key="find.popup" timestamp="1602093604328">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="548" y="222" width="583" height="566" key="find.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602093604328" />
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1602184178261">
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1602187347015">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602184178261" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602187347015" />
   </component>
 </project>

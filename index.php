@@ -49,19 +49,10 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt earum fugit labore neque repellendus tempore unde vero voluptatem? Accusamus ad aperiam cumque dolores ex maiores quo suscipit tenetur ullam vel?
                     </p>
                 </div>
+                <a href="#" class="btn-text">Kierunki kształcenia</a>
             </div>
         </div>
     </div>
-<!--    <div class="row">-->
-<!--        <div class="col-1-of-2" style="background-color: #33adff;">-->
-<!--            dasda-->
-<!--        </div>-->
-<!--        <div class="col-1-of-2" style="background-color: #004d80;">-->
-<!--            <div class="u-margin-bottom-sm u-center-text">-->
-<!--                <h1 class="heading-primary">- Nasza szkoła?</h1>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
 </section>
 </body>
 </html>
