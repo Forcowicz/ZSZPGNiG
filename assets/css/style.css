@@ -173,10 +173,93 @@ body {
   color: #f4f2f2;
 }
 
+.card {
+  height: 25rem;
+  position: relative;
+  perspective: 150rem;
+}
+.card__side {
+  height: 25rem;
+  width: 100%;
+  transition: all 0.5s;
+  position: absolute;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.4);
+}
+.card__side--front {
+  background-color: #ffffff;
+}
+.card__side--back {
+  transform: rotateX(-180deg);
+}
+.card__side--back--1 {
+  background-image: linear-gradient(to right bottom, #33adff, #007ed2);
+}
+.card__side--back--2 {
+  background-image: linear-gradient(to right bottom, #00cc00, #006600);
+}
+.card__side--back--3 {
+  background-image: linear-gradient(to right bottom, #a64dff, #8000ff);
+}
+.card__side--back--4 {
+  background-image: linear-gradient(to right bottom, #ff0000, #990000);
+}
+.card:hover .card__side--front {
+  transform: rotateX(180deg);
+}
+.card:hover .card__side--back {
+  transform: rotateY(0);
+}
+.card__picture {
+  height: 25rem;
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+.card__picture--1 {
+  background-image: linear-gradient(to right bottom, #33adff, #007ed2), url("../images/students.jpg");
+}
+.card__picture--2 {
+  background-image: linear-gradient(to right bottom, #00cc00, #006600), url("../images/students.jpg");
+}
+.card__picture--3 {
+  background-image: linear-gradient(to right bottom, #a64dff, #8000ff), url("../images/students.jpg");
+}
+.card__picture--4 {
+  background-image: linear-gradient(to right bottom, #ff0000, #990000), url("../images/students.jpg");
+}
+.card__heading {
+  font-size: 2.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  transform: translateZ(0);
+  padding: 0.5rem;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 4rem;
+  right: 0;
+}
+.card__heading--1 {
+  background-image: linear-gradient(to right bottom, rgba(51, 173, 255, 0.75), rgba(0, 126, 210, 0.75));
+}
+.card__heading--2 {
+  background-image: linear-gradient(to right bottom, rgba(0, 204, 0, 0.75), rgba(0, 102, 0, 0.75));
+}
+.card__heading--3 {
+  background-image: linear-gradient(to right bottom, rgba(166, 77, 255, 0.75), rgba(128, 0, 255, 0.75));
+}
+.card__heading--4 {
+  background-image: linear-gradient(to right bottom, rgba(255, 0, 0, 0.75), rgba(153, 0, 0, 0.75));
+}
+
 .header {
   width: 100%;
   height: 90vh;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 40%, transparent 100%), url("../images/background.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 40%, transparent 100%), url("../images/school.jpg");
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
@@ -248,6 +331,18 @@ body {
 .description__text {
   width: 75%;
   margin: 0 auto 2rem auto;
+}
+
+.section-fields {
+  width: 100%;
+  height: 80rem;
+}
+
+.fields {
+  width: 100%;
+  height: 100%;
+  background-color: #1C1C1C;
+  padding: 8rem;
 }
 
 .row {

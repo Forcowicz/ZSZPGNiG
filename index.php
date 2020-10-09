@@ -31,6 +31,7 @@
         <h2 class="header__heading header__heading--secondary"><span>w</span> Krakowie</h2>
     </div>
 </header>
+<main>
 <section class="section-description">
     <div class="description">
         <div class="description__left">
@@ -54,5 +55,62 @@
         </div>
     </div>
 </section>
+    <!-- <a href='https://www.freepik.com/photos/background'>Background photo created by dashu83 - www.freepik.com</a> -->
+<section class="section-fields">
+    <div class="fields">
+        <div class="u-center-text u-margin-bottom-md">
+            <h2 class="heading-secondary">Kierunki kształcenia</h2>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="card">
+                    <div class="card__side card__side--front card__side--front--1">
+                        <div class="card__picture card__picture--1"></div>
+                        <h4 class="card__heading card__heading--1">Technik informatyk</h4>
+                    </div>
+                    <div class="card__side card__side--back card__side--back--1">
+                        content
+                    </div>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <div class="card">
+                    <div class="card__side card__side--front card__side--front--2">
+                        <div class="card__picture card__picture--2"></div>
+                        <h4 class="card__heading card__heading--2">Technik geolog</h4>
+                    </div>
+                    <div class="card__side card__side--back card__side--back--2">
+                        content
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="card">
+                    <div class="card__side card__side--front card__side--front--3">
+                        <div class="card__picture card__picture--3"></div>
+                        <h4 class="card__heading card__heading--3">Technik wiertnik</h4>
+                    </div>
+                    <div class="card__side card__side--back card__side--back--3">
+                        content
+                    </div>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <div class="card">
+                    <div class="card__side card__side--front card__side--front--4">
+                        <div class="card__picture card__picture--4"></div>
+                        <h4 class="card__heading card__heading--4">Technik ochrony środowiska</h4>
+                    </div>
+                    <div class="card__side card__side--back card__side--back--4">
+                        content
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
 </body>
 </html>
