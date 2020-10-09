@@ -224,12 +224,10 @@ body {
 .description__left {
   display: table-cell;
   width: 40%;
-  background-image: url("../images/students.jpg");
-  background-size: cover;
-  background-position: center;
   height: auto;
   overflow: hidden;
   clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+  position: relative;
 }
 .description__right {
   display: table-cell;
@@ -241,6 +239,8 @@ body {
   width: 100%;
   backface-visibility: hidden;
   transition: all 0.25s ease-out;
+  display: inline-block;
+  position: absolute;
 }
 .description__image:hover {
   transform: scale(1.1);
