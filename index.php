@@ -35,23 +35,23 @@
 <section class="section-description">
     <div class="description">
         <div class="description__left">
-            <img src="assets/images/students.jpg" alt="Students Photo" class="description__image">
+
         </div>
         <div class="description__right">
-            <div class="u-margin-bottom-sm u-margin-top-md u-center-text">
+            <div class="u-margin-bottom-sm">
                 <h2 class="heading-secondary">&mdash; Nasza szkoła?</h2>
-                <div class="u-margin-bottom-xs u-margin-top-sm">
-                    <h4 class="heading-quaternary">To przede wszystkim:</h4>
-                </div>
-                <div class="description__text">
-                    <p class="paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate delectus distinctio eligendi facilis impedit necessitatibus numquam odio officia possimus quas quis quo, sequi voluptatem voluptatibus.
-                        Aut excepturi mollitia voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eaque enim, excepturi ipsa odit porro quaerat, quis, quos repellat tempora tenetur voluptate voluptatem! Alias animi cupiditate impedit ipsam nisi! Delectus.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt earum fugit labore neque repellendus tempore unde vero voluptatem? Accusamus ad aperiam cumque dolores ex maiores quo suscipit tenetur ullam vel?
-                    </p>
-                </div>
-                <a href="#" class="btn-text">Kierunki kształcenia</a>
             </div>
+            <div class="u-margin-bottom-xs">
+                <h4 class="heading-quaternary">To przede wszystkim:</h4>
+            </div>
+            <div class="description__text">
+                <p class="paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto delectus, dolorem est explicabo fugit, harum laboriosam, laborum minima modi nesciunt nisi obcaecati omnis quibusdam quisquam similique velit veniam voluptatum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda distinctio, doloribus ducimus harum labore laboriosam laborum molestias placeat quod repudiandae sapiente tempora totam vel voluptas. At exercitationem incidunt laudantium?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur assumenda dolore exercitationem expedita impedit nesciunt, obcaecati pariatur quibusdam saepe sunt totam velit vitae voluptatem voluptates. Aliquam deserunt quo saepe!
+                </p>
+            </div>
+            <a href="#" class="btn-text u-margin-top-sm">Kierunki kształcenia</a>
         </div>
     </div>
 </section>
@@ -69,7 +69,9 @@
                         <h4 class="card__heading card__heading--1">Technik informatyk</h4>
                     </div>
                     <div class="card__side card__side--back card__side--back--1">
-                        content
+                        <div class="card__details">
+                            <p>Technik informatyk jest ciekawym i bardzo poszukiwanym zawodem na rynku pracy (wzór opisu).</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -80,7 +82,9 @@
                         <h4 class="card__heading card__heading--2">Technik geolog</h4>
                     </div>
                     <div class="card__side card__side--back card__side--back--2">
-                        content
+                        <div class="card__details">
+                            <p>Technik geolog jest ciekawym i bardzo poszukiwanym zawodem na rynku pracy (wzór opisu).</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -93,7 +97,9 @@
                         <h4 class="card__heading card__heading--3">Technik wiertnik</h4>
                     </div>
                     <div class="card__side card__side--back card__side--back--3">
-                        content
+                        <div class="card__details">
+                            <p>Technik wiertnik jest ciekawym i bardzo poszukiwanym zawodem na rynku pracy (wzór opisu).</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -104,7 +110,9 @@
                         <h4 class="card__heading card__heading--4">Technik ochrony środowiska</h4>
                     </div>
                     <div class="card__side card__side--back card__side--back--4">
-                        content
+                        <div class="card__details">
+                            <p>Technik ochrony środowiska jest ciekawym i bardzo poszukiwanym zawodem na rynku pracy (wzór opisu).</p>
+                        </div>
                     </div>
                 </div>
             </div>
