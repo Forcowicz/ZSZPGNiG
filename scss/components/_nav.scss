@@ -5,25 +5,16 @@
   top: 0;
   left: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: #000;
   z-index: 100;
-
-    &__logo-box {
-      height: 100%;
-      width: auto;
-    }
-
-    &__logo {
-      height: 100%;
-      width: auto;
-    }
 
     &__list {
       display: flex;
       list-style: none;
       justify-content: center;
       align-items: center;
+      flex: 1;
     }
 
     &__item {

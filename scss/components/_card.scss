@@ -102,9 +102,13 @@
     &__details {
       font-size: 1.6rem;
       color: #fff;
-      padding: 2rem 1.5rem;
-      display: block;
+      padding: 2.25rem 1.5rem;
       margin: 0 auto;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
     }
 }

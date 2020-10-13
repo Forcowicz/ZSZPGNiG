@@ -29,14 +29,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0e3a8f9-66c6-4150-afa4-057f3711e784" name="Default Changelist" comment="Fields section &amp; small changes">
+    <list default="true" id="d0e3a8f9-66c6-4150-afa4-057f3711e784" name="Default Changelist" comment="Bug fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-placeholder.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_nav.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,8 @@
       <workItem from="1602358759594" duration="1866000" />
       <workItem from="1602381987269" duration="850000" />
       <workItem from="1602447173162" duration="480000" />
-      <workItem from="1602452690940" duration="2599000" />
+      <workItem from="1602452690940" duration="2783000" />
+      <workItem from="1602552342078" duration="1918000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1602021028941</created>
@@ -177,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602277767142</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Bug fixes">
+      <created>1602458351726</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602458351726</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,9 +224,9 @@
     <MESSAGE value="Improving navbar" />
     <MESSAGE value="Description section &amp; small colors changes" />
     <MESSAGE value="Buttons introduction" />
-    <MESSAGE value="Bug fixes" />
     <MESSAGE value="Fields section &amp; small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fields section &amp; small changes" />
+    <MESSAGE value="Bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="421" key="#Chrome_Settings" timestamp="1602275750343">
@@ -256,17 +265,17 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="361" y="176" width="998" height="708" key="SettingsEditor/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602275782617" />
-    <state x="364" y="245" key="Vcs.Push.Dialog.v2" timestamp="1602277774186">
+    <state x="364" y="245" key="Vcs.Push.Dialog.v2" timestamp="1602458359104">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="364" y="245" key="Vcs.Push.Dialog.v2/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602277774186" />
+    <state x="364" y="245" key="Vcs.Push.Dialog.v2/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602458359104" />
     <state x="548" y="222" width="583" height="566" key="find.popup" timestamp="1602093604328">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="548" y="222" width="583" height="566" key="find.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602093604328" />
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1602276673444">
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1602458182400">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602276673444" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602458182400" />
   </component>
 </project>

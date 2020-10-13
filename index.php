@@ -12,9 +12,6 @@
 </head>
 <body>
 <nav class="nav">
-    <div class="nav__logo-box">
-        <img src="assets/images/logo-placeholder.png" alt="Logo" class="nav__logo">
-    </div>
     <ul class="nav__list">
         <li class="nav__item"><a href="#" class="nav__link">Szkoła</a></li>
         <li class="nav__item"><a href="#" class="nav__link">Szkolne życie</a></li>
@@ -71,6 +68,7 @@
                     <div class="card__side card__side--back card__side--back--1">
                         <div class="card__details">
                             <p>Technik informatyk jest ciekawym i bardzo poszukiwanym zawodem na rynku pracy (wzór opisu).</p>
+                            <a href="#" class="btn btn--white">Sprawdź</a>
                         </div>
                     </div>
                 </div>
@@ -84,6 +82,7 @@
                     <div class="card__side card__side--back card__side--back--2">
                         <div class="card__details">
                             <p>Technik geolog jest ciekawym i bardzo poszukiwanym zawodem na rynku pracy (wzór opisu).</p>
+                            <a href="#" class="btn btn--white">Sprawdź</a>
                         </div>
                     </div>
                 </div>
@@ -99,6 +98,7 @@
                     <div class="card__side card__side--back card__side--back--3">
                         <div class="card__details">
                             <p>Technik wiertnik jest ciekawym i bardzo poszukiwanym zawodem na rynku pracy (wzór opisu).</p>
+                            <a href="#" class="btn btn--white">Sprawdź</a>
                         </div>
                     </div>
                 </div>
@@ -112,6 +112,7 @@
                     <div class="card__side card__side--back card__side--back--4">
                         <div class="card__details">
                             <p>Technik ochrony środowiska jest ciekawym i bardzo poszukiwanym zawodem na rynku pracy (wzór opisu).</p>
+                            <a href="#" class="btn btn--white">Sprawdź</a>
                         </div>
                     </div>
                 </div>

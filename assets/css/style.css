@@ -104,23 +104,16 @@ body {
   top: 0;
   left: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: #000;
   z-index: 100;
-}
-.nav__logo-box {
-  height: 100%;
-  width: auto;
-}
-.nav__logo {
-  height: 100%;
-  width: auto;
 }
 .nav__list {
   display: flex;
   list-style: none;
   justify-content: center;
   align-items: center;
+  flex: 1;
 }
 .nav__item {
   position: relative;
@@ -171,6 +164,31 @@ body {
 .btn-text:hover {
   background-color: #0099ff;
   color: #f4f2f2;
+}
+
+.btn:link, .btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  border-radius: 100px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  font-size: 1.6rem;
+  text-align: center;
+  transition: all 0.15s;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+.btn--white {
+  background-color: #fff;
+  color: #777;
+}
+.btn:hover {
+  transform: translateY(-0.4rem) translateZ(0);
+  box-shadow: 0 0.5rem 1.1rem rgba(0, 0, 0, 0.4);
+}
+.btn:active {
+  transform: translateY(0rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 .card {
@@ -258,10 +276,14 @@ body {
 .card__details {
   font-size: 1.6rem;
   color: #fff;
-  padding: 2rem 1.5rem;
-  display: block;
+  padding: 2.25rem 1.5rem;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 .header {
