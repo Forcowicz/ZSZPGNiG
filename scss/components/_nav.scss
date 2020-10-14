@@ -31,7 +31,7 @@
     }
 
     &__button:hover > &__link {
-      //color: $color-primary-light;
+      color: $color-primary-light;
     }
 
     &__link {
@@ -49,6 +49,7 @@
 
         &--dropdown {
           &:link, &:visited {
+            position: relative;
             padding: 2rem 3rem;
             width: 100%;
             transition: all .15s;
@@ -76,6 +77,35 @@
           visibility: visible;
           opacity: 1;
         }
+
+        &--expand {
+          display: block;
+          background-color: #141414;
+          position: absolute;
+          top: 0;
+          left: 100%;
+          width: 25rem;
+          height: auto;
+          visibility: hidden;
+          opacity: 0;
+          transition: all .15s;
+        }
+    }
+
+    &__dropdown-icon {
+      position: absolute;
+      top: 50%;
+      right: 3rem;
+      transform: translateY(-50%);
+      height: 1.25rem;
+      width: 1.25rem;
+      fill: $color-grey-light-3;
+      transition: all .15s;
+      backface-visibility: hidden;
+    }
+
+    &__link--dropdown:hover > &__dropdown-icon {
+      transform: translateX(1rem) translateY(-50%) translateZ(0);
     }
 
     &__dropdown::before {
@@ -87,7 +117,28 @@
       height: 3px;
       background-color: $color-primary-light;
       transform: scaleX(0);
+      transition: all .15s;
+    }
+
+    &__dropdown--expand::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 3px;
+      background-color: $color-primary-light;
+      transform: scaleY(0);
       transition: all .05s;
+    }
+
+    &__dropdown-item--expand:hover > &__dropdown--expand::before {
+      transform: scaleY(1);
+    }
+
+    &__dropdown-item--expand:hover > &__dropdown--expand {
+      visibility: visible;
+      opacity: 1;
     }
 
     &__button:hover + &__dropdown::before {
@@ -117,5 +168,6 @@
       width: 100%;
       display: block;
       text-align: center;
+      position: relative;
     }
 }

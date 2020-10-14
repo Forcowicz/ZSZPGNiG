@@ -29,14 +29,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0e3a8f9-66c6-4150-afa4-057f3711e784" name="Default Changelist" comment="New button &amp; improvements">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="d0e3a8f9-66c6-4150-afa4-057f3711e784" name="Default Changelist" comment="Navbar components">
+      <change afterPath="$PROJECT_DIR$/assets/icons/001-double-right-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/sprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_nav.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,6 +120,7 @@
       <workItem from="1602452690940" duration="2783000" />
       <workItem from="1602552342078" duration="2185000" />
       <workItem from="1602612750039" duration="10469000" />
+      <workItem from="1602638018759" duration="5763000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1602021028941</created>
@@ -291,9 +291,9 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="548" y="222" width="583" height="566" key="find.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602093604328" />
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1602623716219">
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1602646124962">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602623716219" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602646124962" />
   </component>
 </project>
