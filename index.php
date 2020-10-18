@@ -19,12 +19,10 @@ include("assets/includes/handlers/logout-handler.php");
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <?php
-
     if ($_SESSION['verified'] === false) {
         include_once("assets/includes/verification.php");
     } else {
         include_once("assets/includes/overview.php");
     }
-
 ?>
 </html>
