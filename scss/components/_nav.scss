@@ -31,7 +31,7 @@
     }
 
     &__button:hover > &__link {
-      color: $color-primary-light;
+      color: $color-primary;
     }
 
     &__link {
@@ -46,6 +46,12 @@
         font-weight: 700;
         transition: all .15s;
       }
+
+        &--hovered {
+          &:link, &:visited {
+            color: $color-primary;
+          }
+        }
 
         &--dropdown {
           &:link, &:visited {
@@ -102,6 +108,11 @@
       fill: $color-grey-light-3;
       transition: all .15s;
       backface-visibility: hidden;
+
+        &--hovered {
+          transform: translateX(1rem) translateY(-50%) translateZ(0);
+          fill: $color-grey-light-1;
+        }
     }
 
     &__link--dropdown:hover > &__dropdown-icon {

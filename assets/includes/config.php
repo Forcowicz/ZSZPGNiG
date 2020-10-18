@@ -16,7 +16,7 @@ if(isset($_SESSION['verified']) && $_SESSION['verified'] === true) {
 
 date_default_timezone_set('Europe/Warsaw');
 
-$con = mysqli_connect("localhost", "root", "", "brzozowa5");
-    if(mysqli_connect_errno()) {
-        echo "Nie udało się połaczyć z bazą danych." . mysqli_connect_errno();
-    }
+$con = mysqli_connect("localhost", "root", "", "forcowicz");
+if(mysqli_connect_errno()) {
+    echo "Nie udało się połaczyć z bazą danych." . mysqli_connect_errno();
+}

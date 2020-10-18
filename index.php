@@ -4,6 +4,7 @@ include("assets/includes/classes/Account.php");
 $account = new Account($con);
 
 include("assets/includes/handlers/validation-handler.php");
+include("assets/includes/handlers/logout-handler.php");
 ?>
 <!DOCTYPE html>
 <html lang="pl">
@@ -17,13 +18,13 @@ include("assets/includes/handlers/validation-handler.php");
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
 <?php
-    if($_SESSION['verified'] === false || !isset($_SESSION['verified'])) {
+
+    if ($_SESSION['verified'] === false) {
         include_once("assets/includes/verification.php");
     } else {
         include_once("assets/includes/overview.php");
     }
+
 ?>
-</body>
 </html>
