@@ -31,7 +31,7 @@
     }
 
     &__button:hover > &__link {
-      color: $color-primary;
+      color: $color-primary-light;
     }
 
     &__link {
@@ -49,7 +49,7 @@
 
         &--hovered {
           &:link, &:visited {
-            color: $color-primary;
+            color: $color-primary-light;
           }
         }
 
