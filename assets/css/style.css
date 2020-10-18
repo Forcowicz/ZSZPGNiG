@@ -132,7 +132,7 @@ body {
   cursor: pointer;
 }
 .nav__button:hover > .nav__link {
-  color: #0099ff;
+  color: #33adff;
 }
 .nav__link:link, .nav__link:visited {
   display: inline-block;
@@ -146,7 +146,7 @@ body {
   transition: all 0.15s;
 }
 .nav__link--hovered:link, .nav__link--hovered:visited {
-  color: #0099ff;
+  color: #33adff;
 }
 .nav__link--dropdown:link, .nav__link--dropdown:visited {
   position: relative;
