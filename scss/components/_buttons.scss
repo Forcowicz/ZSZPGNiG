@@ -15,7 +15,7 @@
 }
 
 .btn {
-  &:link, &:visited {
+  &, &:link, &:visited {
     display: inline-block;
     text-decoration: none;
     padding: 1rem 3rem;
@@ -26,11 +26,18 @@
     transition: all .15s;
     backface-visibility: hidden;
     -webkit-font-smoothing: subpixel-antialiased;
+    border: none;
+    cursor: pointer;
   }
 
     &--white {
       background-color: #fff;
-      color: $color-grey-dark-2;
+      color: $color-grey-dark-3;
+    }
+
+    &--gradient {
+      background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+      color: $color-grey-light-1;
     }
 
     &:hover {

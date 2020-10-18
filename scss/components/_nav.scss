@@ -11,25 +11,115 @@
 
     &__list {
       display: flex;
-      list-style: none;
       justify-content: center;
       align-items: center;
       flex: 1;
     }
 
     &__item {
-      position: relative;
+      display: block;
       align-self: stretch;
-      display: flex;
-      align-items: center;
+      position: relative;
+    }
+
+    &__button {
+      border: none;
+      width: 100%;
+      height: 100%;
+      background-color: unset;
       cursor: pointer;
-       // TODO dodać social media
-        &:last-child {
-          margin-right: 4rem;
+    }
+
+    &__button:hover > &__link {
+      color: $color-primary-light;
+    }
+
+    &__link {
+      &:link, &:visited {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-family: "Nunito", sans-serif;
+        text-transform: uppercase;
+        padding: 3rem 4rem;
+        color: $color-grey-light-2;
+        font-weight: 700;
+        transition: all .15s;
+      }
+
+        &--hovered {
+          &:link, &:visited {
+            color: $color-primary-light;
+          }
+        }
+
+        &--dropdown {
+          &:link, &:visited {
+            position: relative;
+            padding: 2rem 3rem;
+            width: 100%;
+            transition: all .15s;
+          }
+
+            &:hover {
+              background-color: $color-primary;
+            }
         }
     }
 
-    &__item::before {
+    &__dropdown {
+      position: absolute;
+      top: 8rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 30rem;
+      height: auto;
+      visibility: hidden;
+      opacity: 0;
+      transition: all .15s;
+      background-color: #0F0F0F;
+
+        &:hover {
+          visibility: visible;
+          opacity: 1;
+        }
+
+        &--expand {
+          display: block;
+          background-color: #141414;
+          position: absolute;
+          top: 0;
+          left: 100%;
+          width: 25rem;
+          height: auto;
+          visibility: hidden;
+          opacity: 0;
+          transition: all .15s;
+        }
+    }
+
+    &__dropdown-icon {
+      position: absolute;
+      top: 50%;
+      right: 3rem;
+      transform: translateY(-50%);
+      height: 1.25rem;
+      width: 1.25rem;
+      fill: $color-grey-light-3;
+      transition: all .15s;
+      backface-visibility: hidden;
+
+        &--hovered {
+          transform: translateX(1rem) translateY(-50%) translateZ(0);
+          fill: $color-grey-light-1;
+        }
+    }
+
+    &__link--dropdown:hover > &__dropdown-icon {
+      transform: translateX(1rem) translateY(-50%) translateZ(0);
+    }
+
+    &__dropdown::before {
       content: "";
       position: absolute;
       bottom: 0;
@@ -38,27 +128,57 @@
       height: 3px;
       background-color: $color-primary-light;
       transform: scaleX(0);
+      transition: all .15s;
+    }
+
+    &__dropdown--expand::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 3px;
+      background-color: $color-primary-light;
+      transform: scaleY(0);
       transition: all .05s;
     }
 
-    &__item:hover::before {
+    &__dropdown-item--expand:hover > &__dropdown--expand::before {
+      transform: scaleY(1);
+    }
+
+    &__dropdown-item--expand:hover > &__dropdown--expand {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    &__button:hover + &__dropdown::before {
       transform: scaleX(1);
     }
 
-    &__link {
-      &:link, &:visited {
-        text-decoration: none;
-        font-family: "Nunito", sans-serif;
-        font-size: 1.4rem;
-        text-transform: uppercase;
-        padding: 3rem 4rem;
-        color: $color-grey-light-2;
-        transition: color .05s;
-        font-weight: 700;
-      }
+    &__dropdown:hover::before {
+      transform: scaleX(1);
     }
 
-    &__item:hover > &__link {
-      color: $color-primary-light;
+    &__button:hover + &__dropdown {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    &__dropdown-list {
+      list-style: none;
+      width: auto;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__dropdown-item {
+      width: 100%;
+      display: block;
+      text-align: center;
+      position: relative;
     }
 }

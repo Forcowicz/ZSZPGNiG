@@ -29,15 +29,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0e3a8f9-66c6-4150-afa4-057f3711e784" name="Default Changelist" comment="Bug fixes">
+    <list default="true" id="d0e3a8f9-66c6-4150-afa4-057f3711e784" name="Default Changelist" comment="Bugfixes &amp; navbar update">
+      <change afterPath="$PROJECT_DIR$/assets/includes/nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/layout/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo-placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/includes/overview.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/includes/overview.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +53,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iWOiRaIsUksAQsZpNTe2UlePQh" />
@@ -69,6 +76,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -84,7 +92,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -92,6 +100,10 @@
       <recent name="H:\XAMPP\htdocs\usound-client\ZSZ PGNiG\scss\abstracts" />
       <recent name="H:\XAMPP\htdocs\usound-client\ZSZ PGNiG\scss\layout" />
       <recent name="H:\XAMPP\htdocs\usound-client\ZSZ PGNiG\scss" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\XAMPP\htdocs\ZSZ PGNiG\assets\includes\handlers" />
+      <recent name="H:\XAMPP\htdocs\ZSZ PGNiG\assets\includes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -114,7 +126,21 @@
       <workItem from="1602381987269" duration="850000" />
       <workItem from="1602447173162" duration="480000" />
       <workItem from="1602452690940" duration="2783000" />
-      <workItem from="1602552342078" duration="1918000" />
+      <workItem from="1602552342078" duration="2185000" />
+      <workItem from="1602612750039" duration="10469000" />
+      <workItem from="1602638018759" duration="5950000" />
+      <workItem from="1602710414592" duration="623000" />
+      <workItem from="1602716052857" duration="2998000" />
+      <workItem from="1602724032934" duration="9187000" />
+      <workItem from="1602810660280" duration="1667000" />
+      <workItem from="1602819621173" duration="4519000" />
+      <workItem from="1602875765981" duration="2354000" />
+      <workItem from="1602895693126" duration="3671000" />
+      <workItem from="1602906632989" duration="1331000" />
+      <workItem from="1602909778574" duration="1012000" />
+      <workItem from="1602985638014" duration="41000" />
+      <workItem from="1602993680582" duration="509000" />
+      <workItem from="1602997946022" duration="7348000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1602021028941</created>
@@ -186,7 +212,49 @@
       <option name="project" value="LOCAL" />
       <updated>1602458351726</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="New button &amp; improvements">
+      <created>1602556356743</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602556356743</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Expanded navbar">
+      <created>1602646354564</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602646354564</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Access system &amp; few changes">
+      <created>1602822249243</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602822249243</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Bugfixes &amp; navbar update">
+      <created>1603001560976</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603001560976</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Bugfixes &amp; navbar update">
+      <created>1603001788576</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603001788576</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Bugfixes &amp; navbar update">
+      <created>1603001792802</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603001792802</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +294,11 @@
     <MESSAGE value="Buttons introduction" />
     <MESSAGE value="Fields section &amp; small changes" />
     <MESSAGE value="Bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes" />
+    <MESSAGE value="New button &amp; improvements" />
+    <MESSAGE value="Expanded navbar" />
+    <MESSAGE value="Access system &amp; few changes" />
+    <MESSAGE value="Bugfixes &amp; navbar update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugfixes &amp; navbar update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="421" key="#Chrome_Settings" timestamp="1602275750343">
@@ -241,6 +313,14 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="514" y="165" key="#Options/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602096056567" />
+    <state x="216" y="341" key="#SQL_Dialects" timestamp="1602717668344">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="216" y="341" key="#SQL_Dialects/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602717668344" />
+    <state x="432" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602878545885">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602878545885" />
     <state x="609" y="295" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602020175051">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -249,33 +329,45 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="509" y="213" width="665" height="658" key="EditFileWatcherDialog/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602020364471" />
-    <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1602093140442">
+    <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1602994189680">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602093140442" />
+    <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602994189680" />
     <state x="716" y="407" key="Github.ShareDialog" timestamp="1602092800006">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="716" y="407" key="Github.ShareDialog/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602092800006" />
-    <state x="674" y="424" key="NewPhpFileDialog" timestamp="1602020038057">
+    <state x="605" y="212" key="NewPhpClassDialog" timestamp="1602717471705">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="674" y="424" key="NewPhpFileDialog/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602020038057" />
-    <state x="361" y="176" width="998" height="708" key="SettingsEditor" timestamp="1602275782617">
+    <state x="605" y="212" key="NewPhpClassDialog/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602717471705" />
+    <state x="674" y="424" key="NewPhpFileDialog" timestamp="1602716652388">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="361" y="176" width="998" height="708" key="SettingsEditor/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602275782617" />
-    <state x="364" y="245" key="Vcs.Push.Dialog.v2" timestamp="1602458359104">
+    <state x="674" y="424" key="NewPhpFileDialog/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602716652388" />
+    <state x="674" y="124" key="RollbackChangesDialog" timestamp="1602556581950">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="364" y="245" key="Vcs.Push.Dialog.v2/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602458359104" />
+    <state x="674" y="124" key="RollbackChangesDialog/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602556581950" />
+    <state x="361" y="176" width="998" height="708" key="SettingsEditor" timestamp="1602726566316">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="361" y="176" width="998" height="708" key="SettingsEditor/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602726566316" />
+    <state x="561" y="246" width="585" height="540" key="StructurePopup" timestamp="1602724988116">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="561" y="246" width="585" height="540" key="StructurePopup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602724988116" />
+    <state x="364" y="245" key="Vcs.Push.Dialog.v2" timestamp="1603001802105">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="364" y="245" key="Vcs.Push.Dialog.v2/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1603001802105" />
     <state x="548" y="222" width="583" height="566" key="find.popup" timestamp="1602093604328">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="548" y="222" width="583" height="566" key="find.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602093604328" />
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1602458182400">
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1602909990180">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602458182400" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010/1680.0.1280.984@0.0.1680.1010" timestamp="1602909990180" />
   </component>
 </project>

@@ -1,0 +1,88 @@
+.form {
+  width: 100%;
+
+    &__group {
+      display: block;
+      padding-bottom: 2rem;
+      margin-bottom: 1rem;
+      position: relative;
+      font-family: "Nunito", sans-serif;
+    }
+
+    &__input {
+      width: 100%;
+      font-family: inherit;
+      font-weight: 400;
+      border: 2px solid $color-primary;
+      font-size: 1.6rem;
+      padding: 1rem;
+      border-radius: 3px;
+      transition: all .15s;
+
+        &--success {
+          border-color: #2eec71;
+        }
+
+        &--error {
+          border-color: #e74c3c;
+        }
+
+        &::placeholder {
+          color: inherit;
+        }
+
+        &:focus {
+          border-color: $color-primary-dark;
+        }
+    }
+
+    &__group--success > &__icon--positive {
+      fill: #2eec71;
+      visibility: visible;
+    }
+
+    &__group--error > &__icon--negative {
+      fill: #e74c3c;
+      visibility: visible;
+    }
+
+    &__group--error > &__error {
+      visibility: visible;
+    }
+
+    &__label {
+      display: inline-block;
+      margin-bottom: .5rem;
+      font-family: inherit;
+      color: $color-grey-dark-2;
+      font-size: 1.4rem;
+      cursor: text;
+    }
+
+    &__error {
+      font-family: inherit;
+      font-size: 1.2rem;
+      color: red;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      visibility: hidden;
+    }
+
+    &__icon {
+      width: 1.75rem;
+      height: 1.75rem;
+      position: absolute;
+      top: 4.1rem;
+      right: 1rem;
+      visibility: hidden;
+
+        &--positive {
+          fill: green;
+        }
+
+        &--negative {
+          fill: red;
+        }
+    }
+}
