@@ -37,6 +37,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -420,14 +421,17 @@ body {
 .form__input--success {
   border-color: #2eec71;
 }
+.form__input--success:focus {
+  border-color: #2eec71;
+}
 .form__input--error {
+  border-color: #e74c3c;
+}
+.form__input--error:focus {
   border-color: #e74c3c;
 }
 .form__input::placeholder {
   color: inherit;
-}
-.form__input:focus {
-  border-color: #007ed2;
 }
 .form__group--success > .form__icon--positive {
   fill: #2eec71;
@@ -470,6 +474,30 @@ body {
 }
 .form__icon--negative {
   fill: red;
+}
+.form__icon--bad-login {
+  top: 50%;
+  margin-top: -1.25rem;
+  left: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  visibility: visible;
+  fill: #fff;
+}
+.form__bad-login {
+  padding: 1rem;
+  position: relative;
+  background-color: red;
+  display: block;
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+.form__bad-login span {
+  color: #f4f2f2;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 .header {

@@ -19,4 +19,8 @@ class Account {
         session_unset();
         session_destroy();
     }
+
+    public function loginError() {
+        return CONSTANTS::$LOGINERROR;
+    }
 }

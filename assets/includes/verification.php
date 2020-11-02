@@ -1,11 +1,17 @@
 <body class="verification">
 <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 <main>
     <div class="verify">
         <div class="verify__content">
             <div class="u-center-text u-margin-bottom-sm">
-                <h3 class="heading-tertiary">Logowanie</h3>
+                <h3 class="heading-tertiary">Zaloguj się</h3>
             </div>
+            <?php
+            if(isset($_GET['badlogin'])) {
+                echo $account->loginError();
+            }
+            ?>
             <form action="index.php" class="form verify__form" method="post" id="form">
                 <div class="form__group">
                     <label for="username" class="form__label">Nazwa użytkownika</label>

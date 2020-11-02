@@ -21,18 +21,22 @@
 
         &--success {
           border-color: #2eec71;
+
+            &:focus {
+              border-color: #2eec71;
+            }
         }
 
         &--error {
           border-color: #e74c3c;
+
+            &:focus {
+              border-color: #e74c3c;
+            }
         }
 
         &::placeholder {
           color: inherit;
-        }
-
-        &:focus {
-          border-color: $color-primary-dark;
         }
     }
 
@@ -83,6 +87,33 @@
 
         &--negative {
           fill: red;
+        }
+
+        &--bad-login {
+          top: 50%;
+          margin-top: -1.25rem;
+          left: 2rem;
+          height: 2.5rem;
+          width: 2.5rem;
+          visibility: visible;
+          fill: #fff;
+        }
+    }
+
+    &__bad-login {
+      padding: 1rem;
+      position: relative;
+      background-color: red;
+      display: block;
+      text-align: center;
+      margin: 2rem 0 2rem 0;
+      box-shadow: 0 .5rem 1rem rgba(black, .25);
+
+        span {
+          color: $color-grey-light-1;
+          display: inline-block;
+          font-size: 1.4rem;
+          font-weight: 700;
         }
     }
 }

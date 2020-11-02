@@ -9,6 +9,6 @@
             header("Location: index.php");
         } else {
             $_SESSION['verified'] = false;
-            header("Location: index.php");
+            header("Location: index.php?badlogin");
         }
     }

@@ -1,5 +1,6 @@
 <?php
 include("assets/includes/config.php");
+include_once("assets/includes/classes/Contants.php");
 include("assets/includes/classes/Account.php");
 $account = new Account($con);
 
